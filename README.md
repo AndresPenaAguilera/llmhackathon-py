@@ -1,12 +1,14 @@
 # Crea una app con la API de Mistral y Code GPT
 
 ### Este proyecto implementa una aplicación de chat utilizando la API de Mistral y CodeGPT, desarrollada con [Streamlit](https://streamlit.io/).
+
 Desarrollado por [@GustavoEspindola – CodeGPT](https://www.linkedin.com/in/gustavoespindola/)
 
 <!-- add an image -->
 <img src="https://raw.githubusercontent.com/gustavoespindola/llmhackathon-py/refs/heads/master/hackathon.gif" alt="llmhackathon" width="100%">
 
 Este proyecto demuestra la integración de modelos avanzados de IA a través de:
+
 - API de Mistral AI para procesamiento del lenguaje
 - API de CodeGPT para interactuar con agentes especializados
 - Streamlit para una interfaz de usuario intuitiva
@@ -16,19 +18,22 @@ Este proyecto demuestra la integración de modelos avanzados de IA a través de:
 Para utilizar esta aplicación necesitarás:
 
 ### Para la Implementación Básica
+
 **Integración con Mistral API**
-   - Obtener tu [Clave API de Mistral](https://console.mistral.ai/api-keys/)
-   - Probar endpoints de la API usando el archivo .http proporcionado ([Documentación de Endpoints Mistral](https://docs.mistral.ai/api/#tag/models))
-   - Implementar la funcionalidad de chat mediante Streamlit
+
+- Obtener tu [Clave API de Mistral](https://console.mistral.ai/api-keys/)
+- Probar endpoints de la API usando el archivo .http proporcionado ([Documentación de Endpoints Mistral](https://docs.mistral.ai/api/#tag/models))
+- Implementar la funcionalidad de chat mediante Streamlit
 
 ### Para Funciones Avanzadas
-**Configuración del Agente CodeGPT**
-   - Crear un Agente AI a través de CodeGPT
-   - Cargar los datos necesarios del agente
-   - Configurar el ID del agente
-   - Configurar la clave API de CodeGPT
-   - Implementar interacciones con el agente en la interfaz de chat
 
+**Configuración del Agente CodeGPT**
+
+- Crear un Agente AI a través de CodeGPT
+- Cargar los datos necesarios del agente
+- Configurar el ID del agente
+- Configurar la clave API de CodeGPT
+- Implementar interacciones con el agente en la interfaz de chat
 
 ## 📚 Recursos Esenciales
 
@@ -52,8 +57,15 @@ Para utilizar esta aplicación necesitarás:
 
 `cd llmhackathon-py`
 
+**Crear env**
+
+```bash
+# Crear env
+  python -m venv .venv
+```
 
 **Instalar dependencias**
+
 ```bash
 # Instalar dependencias requeridas
   pip install -r requirements.txt
@@ -65,7 +77,7 @@ Para utilizar esta aplicación necesitarás:
   streamlit run app.py
 ```
 
-``` bash
+```bash
   You can now view your Streamlit app in your browser.
 
   ➜  Local URL: http://localhost:8501
@@ -99,11 +111,12 @@ Para ejemplo con Mistral utiliza la varible `MISTRAL_API_KEY` y `MISTRAL_MODEL`
 Para ejemplo con CodeGPT utiliza la varible `CODEGPT_API_KEY`
 [📖 API Key de CodeGPT](https://app.codegpt.co/en/apikeys)
 
-
 ### Configurar variables de entorno:
 
 ## 🤝 Contribuciones
+
 ¡Las contribuciones son bienvenidas! No dudes en enviar un Pull Request.
 
 ## 📄 Licencia
+
 Este proyecto está licenciado bajo la Licencia MIT.
